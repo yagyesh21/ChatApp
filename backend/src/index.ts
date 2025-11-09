@@ -22,7 +22,7 @@ wss.on("connection", (socket)=>{
         }
         
         if(parsedMessage.type =="chat"){
-            console.log("User want to chat");
+           
             
             let currentUserRoom = null;
             for(let i =0; i <allsocket.length ; i++){
